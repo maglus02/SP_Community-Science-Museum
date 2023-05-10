@@ -1,0 +1,26 @@
+html {
+    /*Colors*/
+    --primary: #FFFFFF;
+    --secondary: #000000;
+    --input: #ECECEC;
+    --input-border: #C6C6C6;
+    --theme: #00BAC6;
+
+    /*Font weights*/
+    --Thin: 100;
+    --ExtraLight: 200;
+    --Light: 300;
+    --Regular: 400;
+    --Medium: 500;
+    --SemiBold: 600;
+    --Bold: 700;
+    --ExtraBold: 800;
+    --Black: 900;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    transition: 0.5s;
+    box-sizing: border-box;
+}

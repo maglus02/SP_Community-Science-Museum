@@ -1,0 +1,118 @@
+/* Nav */
+header {
+    padding: 15px 120px 5px 120px;
+    background-color: var(--primary);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--theme);
+}
+
+header a {
+    text-decoration: none;
+}
+
+#logo a,
+.nav ul a,
+.opening-hours p {
+    font-weight: var(--Bold);
+    color: var(--secondary);
+}
+
+#logo {
+    border-bottom: solid 1px var(--theme);
+}
+
+#logo a {
+    font-size: 40px;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.nav ul a {
+    font-size: 20px;
+}
+
+.nav ul li {
+    padding: 0px 20px 0px 20px;
+}
+
+.search {
+    margin-top: 8px;
+}
+
+.search .site-search {
+    width: 350px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: var(--input);
+    border: solid 1px var(--input-border);
+}
+
+
+/* Footer */
+footer {
+    background-color: var(--theme);
+    padding: 30px 120px 30px 120px;
+}
+
+footer .f-content {
+    margin: auto;
+    max-width: 1680px;
+}
+
+footer .f-content .f-content-flex {
+    flex-flow: row nowrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-logo,
+.f-links-title,
+.f-socials-title {
+    font-weight: var(--Bold);
+}
+
+.f-logo {
+    font-size: 24px;
+}
+
+footer {
+    font-size: 13px;
+}
+
+.f-links,
+.f-socials {
+    margin-top: 20px;
+}
+
+.f-socials .fa-brands,
+.f-link {
+    cursor: pointer;
+}
+
+.f-socials .fa-brands {
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+footer .f-content .f-bottom {
+    position: relative;
+    margin-top: 65px;
+}
+
+footer .f-content .f-copyright {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
