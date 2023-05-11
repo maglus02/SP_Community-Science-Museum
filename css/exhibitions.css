@@ -1,0 +1,32 @@
+.exhibitions .exhibition {
+    background-color: var(--primary);
+}
+
+.exhibitions .exhibition .exhib-content {
+    max-width: 1680px;
+    margin: auto;
+    display: flex;
+}
+
+
+.exhibitions .exhibition .exhib-txt {
+    align-self: center;
+    margin-right: 20px;
+}
+
+.exhibitions .exhibition .exhib-img {
+    max-width: 830px;
+    margin: 40px 0px;
+}
+
+#black {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+@media only screen and (max-width: 1920px) {
+    .exhibitions .exhibition .exhib-content {
+        max-width: auto;
+        margin: 0px 120px;
+    }
+}

@@ -24,3 +24,30 @@ body {
     transition: 0.5s;
     box-sizing: border-box;
 }
+
+div.margins {
+    margin: 0px 120px;
+}
+
+div.container {
+    max-width: 1680px;
+    margin: auto;
+    position: relative;
+}
+
+h1.title {
+    font-size: 55px;
+    font-weight: var(--Bold);
+    max-width: 1680px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 1920px) {
+    h1.title {
+        max-width: auto;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+}
