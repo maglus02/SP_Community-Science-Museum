@@ -1,0 +1,17 @@
+.for-kids, .for-teachers, .researchers {
+    display: flex;
+    border-bottom: 10px solid var(--theme);
+    padding: 0px 0px 40px 0px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+
+.text {
+    margin-right: 20px;
+    max-width: 1100px;
+}
+
+img {
+    width: 460px;
+    height: max-content;
+}

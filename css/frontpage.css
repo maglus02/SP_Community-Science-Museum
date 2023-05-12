@@ -60,9 +60,13 @@
 }
 #card-2 {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../images/cards/visit-us-card.jpg);
+    url(../images/cards/explore-card.jpg);
 }
 #card-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/cards/visit-us-card.jpg);
+}
+#card-4 {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../images/cards/about-us-card.jpg);
 }

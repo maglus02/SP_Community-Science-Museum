@@ -29,4 +29,11 @@
         max-width: auto;
         margin: 0px 120px;
     }
+
+    h1.title {
+        max-width: auto;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
 }

@@ -1,0 +1,40 @@
+/* Visit Us */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex .text {
+    max-width: 600px;
+}
+
+.flex .text h2, .flex .about-text h2 {
+    font-size: 22px;
+    font-weight: var(--SemiBold);
+    margin-top: 40px;
+}
+
+.flex .text p {
+    font-size: 18px;
+}
+
+.flex img {
+    max-width: 830px;
+    margin: 40px 0 40px 0;
+}
+
+
+/* About Us */
+.flex .about-img {
+    max-width: 547px;
+}
+
+.flex .about-text {
+    max-width: 750px;
+}
+
+.flex .about-text h2 {
+    font-weight: var(--Bold);
+    font-size: 28px;
+}

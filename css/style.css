@@ -43,11 +43,3 @@ h1.title {
     margin-top: 40px;
     margin-bottom: 40px;
 }
-
-@media only screen and (max-width: 1920px) {
-    h1.title {
-        max-width: auto;
-        margin-left: 120px;
-        margin-right: 120px;
-    }
-}
