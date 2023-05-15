@@ -1,8 +1,9 @@
 /* Visit Us */
 .flex {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .flex .text {
@@ -15,8 +16,10 @@
     margin-top: 40px;
 }
 
-.flex .text p {
+.flex .text p, .flex .text a, .flex .about-text {
     font-size: 18px;
+    text-decoration: none;
+    color: var(--secondary);
 }
 
 .flex img {
@@ -38,3 +41,30 @@
     font-weight: var(--Bold);
     font-size: 28px;
 }
+
+
+/* Transitions */
+.flex {
+    transition: 0.1s;
+}
+
+
+/*Media queries*/
+@media only screen and (max-width: 1300px) {
+    .flex .text, .flex img {
+        max-width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 1480px) {
+    .flex {
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 620px) {
+    .flex .about-img {
+        max-width: 100%;
+    }
+  }

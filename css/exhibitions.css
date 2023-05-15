@@ -1,3 +1,4 @@
+/* Exhibitions page */
 .exhibitions .exhibition {
     background-color: var(--primary);
 }
@@ -6,17 +7,21 @@
     max-width: 1680px;
     margin: auto;
     display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
 }
 
 
 .exhibitions .exhibition .exhib-txt {
     align-self: center;
-    margin-right: 20px;
+    font-size: 20px;
 }
 
 .exhibitions .exhibition .exhib-img {
-    max-width: 830px;
+    width: 750px;
+    height: 500px;
     margin: 40px 0px;
+    object-fit: cover;
 }
 
 #black {
@@ -24,6 +29,14 @@
     color: var(--primary);
 }
 
+
+/* Transitions */
+.exhibitions, .exhibitions .exhibition .exhib-img, .exhibitions .exhibition .exhib-txt, .exhibitions .exhibition .exhib-content {
+    transition: 0.1s;
+}
+
+
+/* Media queries */
 @media only screen and (max-width: 1920px) {
     .exhibitions .exhibition .exhib-content {
         max-width: auto;
@@ -36,4 +49,32 @@
         margin-right: 120px;
     }
 
+}
+
+@media only screen and (max-width: 1480px) {
+    .exhibitions .exhibition .exhib-content {
+        flex-flow: row wrap;
+        gap: 0px;
+    }
+
+    .exhibitions .exhibition .exhib-img {
+        margin: 0px 0px 30px 0px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .exhibitions .exhibition .exhib-content {
+        max-width: 100%;
+        flex-flow: column wrap;
+        margin: 0px 20px;
+    }
+
+    .exhibitions .exhibition .exhib-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .exhibitions .exhibition .exhib-txt {
+        align-self: flex-start;
+    }
 }

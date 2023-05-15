@@ -1,8 +1,8 @@
 /* Hero */
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/andrew-ruiz-348421.jpg) no-repeat center center;
-    background-size: 100% auto;
+        url(../images/andrew-ruiz-348421.jpg) no-repeat center center;
+    background-size: cover;
     padding: 240px 0px 240px 0px;
 }
 
@@ -33,6 +33,8 @@
     display: flex;
     justify-content: center;
     gap: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .cards a {
@@ -41,10 +43,14 @@
 
 .card {
     height: 540px;
-    width: 405px;
+    width: 385px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.card:hover {
+    filter: brightness(0.8);
 }
 
 .card h3 {
@@ -56,17 +62,66 @@
 
 #card-1 {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../images/cards/exhibition-card.jpg);
+        url(../images/cards/exhibition-card.jpg) no-repeat center center;
 }
+
 #card-2 {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../images/cards/explore-card.jpg);
+        url(../images/cards/explore-card.jpg) no-repeat center center;
 }
+
 #card-3 {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../images/cards/visit-us-card.jpg);
+        url(../images/cards/visit-us-card.jpg) no-repeat center center;
 }
+
 #card-4 {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../images/cards/about-us-card.jpg);
+        url(../images/cards/about-us-card.jpg) no-repeat center center;
+}
+
+#card-1, #card-2, #card-3, #card-4 {
+    background-size: cover;
+}
+
+/* transitions */
+.hero, .cards, .card {
+    transition: 0.1s;
+}
+
+/* Media queries */
+@media only screen and (max-width: 1100px) {
+    .hero {
+        background-size: cover;
+        padding: 80px 0px 80px 0px;
+    }
+
+    .hero .hero-content {
+        margin: 0 20px;
+    }
+
+    .hero .hero-content h1 {
+        font-size: 32px;
+    }
+
+    .hero .hero-content h2 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .cards {
+        flex-flow: column nowrap;
+        margin: 40px 20px;
+        gap: 20px;
+    }
+    
+    .card {
+        height: 110px;
+        width: 100%;
+    }
+
+    .card h3 {
+        font-size: 32px;
+    }
 }
