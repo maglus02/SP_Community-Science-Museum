@@ -77,4 +77,10 @@
     .exhibitions .exhibition .exhib-txt {
         align-self: flex-start;
     }
+
+    h1.title {
+        max-width: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
