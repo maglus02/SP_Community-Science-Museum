@@ -43,6 +43,14 @@ header a {
     font-size: 20px;
 }
 
+.nav ul a:hover {
+    text-decoration: underline 2px var(--secondary);
+}
+
+.nav ul .active {
+    text-decoration: underline 2px var(--theme);
+}
+
 .nav ul li {
     padding: 0px 20px 0px 20px;
 }
@@ -223,6 +231,10 @@ footer, header {
     .nav ul li a {
         width: 100%;
         padding: 12px 0px;
+    }
+
+    .nav ul .active {
+        text-decoration: underline 2px var(--secondary);
     }
 }
 
