@@ -24,10 +24,6 @@
     object-fit: cover;
 }
 
-#alternate {
-    background-color: var(--theme);
-}
-
 
 /* Transitions */
 .exhibitions, .exhibitions .exhibition .exhib-img, .exhibitions .exhibition .exhib-txt, .exhibitions .exhibition .exhib-content {
