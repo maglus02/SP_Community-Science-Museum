@@ -24,9 +24,8 @@
     object-fit: cover;
 }
 
-#black {
-    background-color: var(--secondary);
-    color: var(--primary);
+#alternate {
+    background-color: var(--theme);
 }
 
 
