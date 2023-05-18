@@ -10,13 +10,16 @@
     max-width: 600px;
 }
 
-.flex .text h2, .flex .about-text h2 {
+.flex .text h2,
+.flex .about-text h2 {
     font-size: 22px;
     font-weight: var(--SemiBold);
     margin-top: 40px;
 }
 
-.flex .text p, .flex .text a, .flex .about-text {
+.flex .text p,
+.flex .text a,
+.flex .about-text {
     font-size: 18px;
     text-decoration: none;
     color: var(--secondary);
@@ -51,20 +54,22 @@
 
 /*Media queries*/
 @media only screen and (max-width: 1300px) {
-    .flex .text, .flex img {
+
+    .flex .text,
+    .flex img {
         max-width: 100%;
     }
-  }
+}
 
-  @media only screen and (max-width: 1480px) {
+@media only screen and (max-width: 1480px) {
     .flex {
         flex-wrap: wrap;
         gap: 0px;
     }
-  }
+}
 
-  @media only screen and (max-width: 620px) {
+@media only screen and (max-width: 620px) {
     .flex .about-img {
         max-width: 100%;
     }
-  }
+}

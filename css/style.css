@@ -45,7 +45,8 @@ h1.title {
 }
 
 /* Transitions */
-h1.title, div.margins {
+h1.title,
+div.margins {
     transition: 0.1s;
 }
 
@@ -53,11 +54,11 @@ h1.title, div.margins {
 /*Media queries*/
 @media only screen and (max-width: 1300px) {
     div.margins {
-      margin: 0px 20px;
+        margin: 0px 20px;
     }
-  
+
     h1.title {
-      font-size: 40px;
-      text-align: center;
+        font-size: 40px;
+        text-align: center;
     }
-  }
+}

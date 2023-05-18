@@ -149,18 +149,30 @@ footer .f-content .f-copyright {
 }
 
 /* Transitions */
-footer, header {
+footer,
+header {
     transition: 0.1s;
 }
 
 /* Animations */
 @keyframes menu-anim {
-    from {height: 0px;}
-    to {height: 430px;}
+    from {
+        height: 0px;
+    }
+
+    to {
+        height: 430px;
+    }
 }
+
 @keyframes menu-anim-2 {
-    from {margin: 0px 0px 0px 0px;}
-    to {margin: 10px 0px 10px 0px;}
+    from {
+        margin: 0px 0px 0px 0px;
+    }
+
+    to {
+        margin: 10px 0px 10px 0px;
+    }
 }
 
 /* Media queries */
@@ -176,12 +188,13 @@ footer, header {
         user-select: none;
         align-self: center;
     }
-    
+
     #logo a {
         font-size: 20px;
     }
 
-    .opening-hours, .search {
+    .opening-hours,
+    .search {
         display: none;
     }
 
@@ -201,7 +214,8 @@ footer, header {
         background-color: var(--theme);
     }
 
-    .nav ul li, .mobile-search {
+    .nav ul li,
+    .mobile-search {
         margin: 10px 0px 10px 0px;
         width: 100%;
         text-align: center;

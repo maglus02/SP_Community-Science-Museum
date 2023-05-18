@@ -1,5 +1,7 @@
 /* Explore page */
-.for-kids, .for-teachers, .researchers {
+.for-kids,
+.for-teachers,
+.researchers {
     display: flex;
     border-bottom: 10px solid var(--theme);
     padding: 0px 0px 40px 0px;
@@ -21,14 +23,21 @@ img {
 
 
 /* Transitions */
-.for-kids, .for-teachers, .researchers, .text, img {
+.for-kids,
+.for-teachers,
+.researchers,
+.text,
+img {
     transition: 0.1s;
 }
 
 
 /* Media queries */
 @media only screen and (max-width: 1300px) {
-    .for-kids, .for-teachers, .researchers {
+
+    .for-kids,
+    .for-teachers,
+    .researchers {
         flex-flow: column wrap;
         gap: 10px;
     }

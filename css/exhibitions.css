@@ -26,7 +26,10 @@
 
 
 /* Transitions */
-.exhibitions, .exhibitions .exhibition .exhib-img, .exhibitions .exhibition .exhib-txt, .exhibitions .exhibition .exhib-content {
+.exhibitions,
+.exhibitions .exhibition .exhib-img,
+.exhibitions .exhibition .exhib-txt,
+.exhibitions .exhibition .exhib-content {
     transition: 0.1s;
 }
 
