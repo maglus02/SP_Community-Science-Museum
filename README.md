@@ -6,7 +6,7 @@ In the Semester Project 1, we used everything we learned during the first semest
 
 ## Description
 
-The Semester Project 1 was a test of what we learned during the first semester. We put our designing and our html and css abilites to the test. In the brief we had to design and create a web page for a target audience, that had to fit all the criteria. The web page we had to create, was a page for a museum called the Community Science Museum. The design had to fit for the target audience of middle school children and families with young children.
+The Semester Project 1 was a test of what we learned during the first semester. We put our designing and our HTML and CSS abilites to the test. In the brief we had to design and create a web page for a target audience, that had to fit all the criteria. The web page we had to create, was a page for a museum called the Community Science Museum. The design had to fit for the target audience of middle school children and families with young children.
 
 The project is purely made with HTML and CSS, and some provided assets.
 
