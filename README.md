@@ -1,6 +1,6 @@
 # Semester Project 1
 
-![image](https://rimgo.kling.gg/kEsK4nr.jpeg)
+![image](https://i.imgur.com/kEsK4nr.jpeg)
 
 In the Semester Project 1, we used everything we learned during the first semester and put it into a new web page we built from the ground up.
 
