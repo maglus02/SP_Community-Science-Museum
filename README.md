@@ -40,4 +40,5 @@ Thank you.
 
 ## Contact
 
-[My email](mailto:contact@mase.addy.io)
+For questions or feedback, reach out via:
+- [Email](mailto:contact@mase.addy.io)
